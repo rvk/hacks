@@ -1,0 +1,8 @@
+:0
+* ^From:.*@myiridium.net
+{
+	:0 fbw
+	| ${HOME}/local/bin/iridium-filter.py
+	:0
+	! YOUR-OWN-ADDRESS@post.wordpress.com
+}
